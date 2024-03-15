@@ -5,6 +5,23 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  body {
+    background-image: linear-gradient(
+    110deg,
+    hsl(196deg 25% 44%) 0%,
+    hsl(198deg 28% 39%) 15%,
+    hsl(200deg 30% 35%) 35%,
+    hsl(203deg 33% 31%) 53%,
+    hsl(205deg 36% 27%) 67%,
+    hsl(207deg 40% 23%) 77%,
+    hsl(210deg 45% 19%) 85%,
+    hsl(212deg 51% 15%) 91%,
+    hsl(215deg 60% 12%) 96%,
+    hsl(221deg 76% 8%) 100%
+  );
+  background-repeat: repeat;
+  
+  }
 }
 
 code {

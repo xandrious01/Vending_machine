@@ -1,0 +1,48 @@
+.machine {
+    width: 800px;
+    height: 1000px;
+    margin: 10%;
+    padding: 20px;
+    z-index: 1;
+}
+
+.VendingMachine {
+   width: 60%;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.item-div {
+    height: 600px;
+    width: 400px;
+    border: 5px solid darkslateblue;
+    border-radius: 5px;
+    box-shadow: 5px 10px 8px #050F25;
+    z-index: 3;
+}
+
+h1 {
+    margin: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    color: white;
+}
+
+h3 {
+    margin: 10px;
+    padding: 10px;
+    color: white;
+}
+
+.overlay {
+    border: 20px solid black;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.5;
+    background-color: black;
+    z-index: 2;
+  }
